@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/9bba8f3105.js" crossorigin="anonymous"></script>
+    <title>Album ảnh mới nhất</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/OIP-preview.png" alt="" width="25px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="diadiem.html">Địa điểm</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog du lịch
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="hinhanh.html">Hình ảnh</a></li>
+                                <li><a class="dropdown-item" href="#">Video</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="tour.html">Tour tham khảo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signin.html">Đăng nhập</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <p class="h1">Hình ảnh</p>
+            <p><i>Kho ảnh đa dạng và chân thực nhất</i></p>
+        </div>
+        <div class="row album">
+            <div class="col-xs-12 col-md-4">
+                    <div>
+                        <a href="#"><img src="images/albumsontra.jpg" alt="album" width="100%"></a>
+                        <a href="#">
+                            <p>Album Bán đảo Sơn Trà</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="banahills.html"><img src="images/anh-ba-na-hills-2.jpg" alt="album" width="100%"></a>
+                        <a href="banahills.html">
+                            <p>Album Bà Nà Hills</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="images/culaocham-hinhanh.jpg" alt="album" width="100%"></a>
+                        <a href="#">
+                            <p>Album Cù Lao Chàm</p>
+                        </a>
+                    </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div>
+                    <a href="#"><img src="images/causonghan.jpg" alt="album" width="100%"></a>
+                    <a href="#">
+                        <p>Album Cầu Rồng - Sông Hàn</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Nui-Ngu-Hanh-Son.png" alt="album" width="100%"></a>
+                    <a href="#">
+                        <p>Album Núi Ngũ Hành Sơn</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/chinh-phuc-de-nhat-hung-quan-hai-van-quan.jpg" alt="album" width="100%"></a>
+                    <a href="#">
+                        <p>Album Đèo Hải Vân</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div>
+                    <a href="#"><img src="images/vuonghoa.jpg" alt="album" width="100%"></a>
+                    <a href="#">
+                        <p>Album Le Jardin D’Amour</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="h#"><img src="images/thanhdiamyson.jpg" alt="album" width="100%"></a>
+                    <a href="#">
+                        <p>Album Thánh địa Mỹ Sơn </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <div class="col-xs-12 col-sm-8 lienhe">
+            <div class="h2">Liên hệ</div>
+            <div id="anhmo"><img src="images/Travel-Cover.jpg" alt="" width=100%></div>
+            <div class="loide"> Blog chuyên chia sẻ tất cả những trải nghiệm, review, kinh nghiệm du lịch tự túc giá rẻ.
+                Những bãi biển đẹp, những thắng cảnh nổi bật nhất, những món ăn tuyệt vời, nhà hàng, khách sạn, quán cà
+                phê, quán ăn gia đình, món ăn, tour… </div>
+            <div id="boxlienhe">
+                <form style="background-color: rgb(253, 237, 162);">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Góp ý</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <input class="btn button-submit" type="submit" value="Gửi">
+                    </div>
+                </form>
+            </div>
+
+            <div>Chúng tôi luôn mong chờ những góp ý từ bạn để blog ngày càng phát triển hơn nữa.</div>
+
+        </div>
+    </div>
+    <footer class="row">
+        <div class="col-xs-12 col-sm-4">
+            <img src="images/OIP-preview.png" alt="" width="60%">
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <p class="h6">Có gì ở Đà Nẵng?</p>
+            <p>62 Đường số 2, KCN Hòa Khánh, Phường Hòa Khánh Bắc, Liên Chiểu, Đà Nẵng</p>HotLine: 0989.983.984</p>
+            <p>Email: cogiodanang@dn.com</p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <p>Kết nối với chúng tôi:</p>
+            <ul class="fa-ul">
+                <li><a href="facebook.com"><i class="fa-brands fa-facebook fa-3x" style="color:#3b5998;"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-3x"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp fa-3x" style="color:#25D366;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
